@@ -8,4 +8,40 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url(/IMG/newyear-ig.jpg);
+    background-size: cover;
+    background-position:initial;
+    color: #fff;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-size: 60px;
+}
+
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -260px;
+}
+
+.big-text{
+    font-size: 60px;
+}
+
+span{
+    font-size: 40px;
+}
+
+.days-c, .hours-c, .minutes-c, .seconds-c{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+
+
